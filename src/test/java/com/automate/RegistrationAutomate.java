@@ -176,5 +176,7 @@ public class RegistrationAutomate extends Base{
         //logout
         WebElement logout= driver.findElement(By.linkText("Logout"));
         logout.click();
+
+        
     }
 }
