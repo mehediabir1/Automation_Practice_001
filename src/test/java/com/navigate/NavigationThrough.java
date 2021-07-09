@@ -1,11 +1,7 @@
 package com.navigate;
 
-import com.automate.Base;
+import com.Base.Base;
 import com.automate.RegistrationAutomate;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-
-import java.sql.SQLOutput;
 
 public class NavigationThrough extends Base {
     public static void main(String[] args) {
