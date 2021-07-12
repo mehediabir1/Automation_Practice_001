@@ -17,6 +17,7 @@ public class EndToEnd extends Base {
         GetUrl("https://demo.opencart.com/index.php?route=account/register");
 //      GettingDropDown();
         String Mail = FillInReg();
+        System.out.println("Account Created");
         LogOut();
         LogBtn();
         Login2(Mail);
@@ -46,7 +47,7 @@ public class EndToEnd extends Base {
 //        System.out.println(c);
         Email.sendKeys(c+"mail@mail.com");
         String Mail = c+"mail@mail.com";
-        System.out.println(Mail);
+        System.out.println("Account Created with: "+Mail);
 
         WebElement Telephone = findById("input-telephone");
         Telephone.sendKeys("123456789");
@@ -63,8 +64,6 @@ public class EndToEnd extends Base {
         WebElement RegBtn = findByCSS(".btn-primary");
         RegBtn.click();
         return Mail;
-
-        System.out.println("Registration DONE!");
     }
 
     public static void LogOut(){
