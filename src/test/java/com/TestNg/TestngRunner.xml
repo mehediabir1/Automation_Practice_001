@@ -1,0 +1,7 @@
+<suite name="BasicXml">
+    <test name="TestNGXml">
+        <classes>
+            <class name="com.TestNg.TestNg"></class>
+        </classes>
+    </test>
+</suite>
