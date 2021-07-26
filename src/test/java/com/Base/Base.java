@@ -12,8 +12,7 @@ public class Base {
     public static WebDriver driver;
 
     public static void main(String[] args) throws IOException {
-        ChromeOpen();
-        ChromeClose();
+
     }
     //Browser Launch
     public static void ChromeOpen(){

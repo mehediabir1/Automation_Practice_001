@@ -29,6 +29,7 @@ public class CaptureSs extends Base {
     public static void Wait10Seconds(){
       driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
       driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //Thread.sleep(1000);
     }
     public static void ScrollDown(){
         JavascriptExecutor js = (JavascriptExecutor)driver;
